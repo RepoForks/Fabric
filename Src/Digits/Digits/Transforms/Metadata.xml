@@ -1,0 +1,21 @@
+<metadata>
+  <attr path="/api/package[@name='com.digits.sdk.android.events']/class[@name='EmptyDigitsDetails']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsActionBarActivity']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='LoginOrSignupComposer']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsActivity']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='CountryInfo']" name="visibility">public</attr>
+
+
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='Digits']/method[@name='doInBackground' and count(parameter)=0]" name="name"> JavaDoInBackground </attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsSession.Serializer']/method[@name='deserialize' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="name"> DigitsDeserialize</attr>
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='DigitsSession.Serializer']/method[@name='serialize' and count(parameter)=1 and parameter[1][@type='com.digits.sdk.android.DigitsSession']]" name="name"> DigitsSerialize </attr>
+
+  <attr path="/api/package[@name='com.digits.sdk.android.models']/class[@name='Vcards']/field[@name='vcards']" name="name">Vcard</attr>
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/interface[@name='ActivityLifecycle']" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/interface[@name='DigitsController']" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/interface[@name='ErrorCodes']" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsCallback']/method[@name='failure' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.android.core.TwitterException']]" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsCallback']/method[@name='success' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.android.core.Result&lt;T&gt;']]" />
+  
+  <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsUploadService' and @extends='android.app.IntentService']" name="extends">mono.android.app.IntentService</attr>
+</metadata>

@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digits", "Digits\Digits.csproj", "{2DAEB65D-0665-468A-A552-9B6F5423390D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabric.sdk", "..\Fabric.sdk\Fabric.sdk\Fabric.sdk.csproj", "{E5D46844-FAF4-40BD-9894-16BDC767106E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter.core.sdk", "..\Twitter.core.sdk\Twitter.core.sdk\Twitter.core.sdk.csproj", "{A53BEF56-5C0E-407B-A25E-140856C34199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{5E0A06DA-1D15-4893-89E0-3868E4DE036F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gson", "..\Gson\Gson.csproj", "{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkHttp3", "..\OkHttp3\OkHttp3.csproj", "{2A7F3D6D-0B23-4736-848E-DBB9122755DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrofit2", "..\Retrofit2\Retrofit2.csproj", "{3739182C-C2D8-4538-B122-9DD82B11F7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crashlytics", "..\Crashlytics\Crashlytics\Crashlytics.csproj", "{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DAEB65D-0665-468A-A552-9B6F5423390D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAEB65D-0665-468A-A552-9B6F5423390D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAEB65D-0665-468A-A552-9B6F5423390D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAEB65D-0665-468A-A552-9B6F5423390D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D46844-FAF4-40BD-9894-16BDC767106E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D46844-FAF4-40BD-9894-16BDC767106E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D46844-FAF4-40BD-9894-16BDC767106E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D46844-FAF4-40BD-9894-16BDC767106E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53BEF56-5C0E-407B-A25E-140856C34199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53BEF56-5C0E-407B-A25E-140856C34199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53BEF56-5C0E-407B-A25E-140856C34199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53BEF56-5C0E-407B-A25E-140856C34199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7} = {5E0A06DA-1D15-4893-89E0-3868E4DE036F}
+		{2A7F3D6D-0B23-4736-848E-DBB9122755DB} = {5E0A06DA-1D15-4893-89E0-3868E4DE036F}
+		{3739182C-C2D8-4538-B122-9DD82B11F7B6} = {5E0A06DA-1D15-4893-89E0-3868E4DE036F}
+	EndGlobalSection
+EndGlobal

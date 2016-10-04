@@ -1,0 +1,28 @@
+<metadata>
+  
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.models']/class[@name='Coordinates']/field[@name='coordinates']" name="name">Coordinats</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.internal']/class[@name='TwitterApiConstants.Errors']/field[@name='ERRORS']" name="name">Erros</attr>
+  <attr path="/api/package[@name='com.google.gson.internal.bind']/class[@name='TypeAdapters.EnumTypeAdapter']/method[@name='write' and count(parameter)=2 and parameter[1][@type='com.google.gson.stream.JsonWriter'] and parameter[2][@type='java.lang.Object']]" name="name">Writ</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core']/class[@name='TwitterCore']/method[@name='doInBackground' and count(parameter)=0]" name="name">DoInBackgroun</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.models']/class[@name='Entity']" name="visibility">public</attr>
+  
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.internal.oauth']/class[@name='OAuthService']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core']/class[@name='TwitterSession.Serializer']/method[@name='deserialize' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedReturn"> Java.Lang.Object </attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core']/class[@name='GuestSession.Serializer']/method[@name='deserialize' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedReturn"> Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.internal.scribe']/class[@name='ScribeEvent.Transform']/method[@name='ToBytes' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.core.internal.scribe.ScribeEvent']]" name="name">GetBytes</attr>
+  <attr path="/api/package[@name='okhttp3.internal']/class[@name='OptionalMethod']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core']/class[@name='AuthTokenAdapter']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]" name="managedReturn"> Java.Lang.Object </attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.models']/class[@name='BindingValuesAdapter']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.models']/class[@name='BindingValuesAdapter']/method[@name='serialize' and count(parameter)=3 and parameter[1][@type='com.twitter.sdk.android.core.models.BindingValues'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonSerializationContext']]" name="managedReturn">Com.Google.Gson.JsonElement</attr>
+  
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsCallback']/method[@name='failure' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.android.core.TwitterException']]" />
+  <remove-node path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsCallback']/method[@name='success' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.android.core.Result&lt;T&gt;']]" />
+
+
+  <remove-node path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthController']" />
+  <remove-node path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthActivity']" />
+  <!--<attr path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthWebViewClient']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.identity']/interface[@name='OAuthWebViewClient.Listener']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthWebViewClient']/field[@name='listener']" name="visibility">public</attr>-->
+  
+</metadata>
