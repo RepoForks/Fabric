@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrofit2", "..\Retrofit2\R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crashlytics", "..\Crashlytics\Crashlytics\Crashlytics.csproj", "{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beta", "..\Beta\Beta.csproj", "{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

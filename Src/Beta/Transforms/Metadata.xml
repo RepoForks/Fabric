@@ -1,0 +1,4 @@
+<metadata>
+  <attr path="/api/package[@name='com.crashlytics.android.beta']/class[@name='Beta']/method[@name='doInBackground' and count(parameter)=0]" name="name">DoInBackgroun</attr>
+  <attr path="/api/package[@name='com.crashlytics.android.beta']/class[@name='DeviceTokenLoader']/method[@name='load' and count(parameter)=1 and parameter[1][@type='android.content.Context']]" name="managedReturn">Java.Lang.Object</attr>
+</metadata>

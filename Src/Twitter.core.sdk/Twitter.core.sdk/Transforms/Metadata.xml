@@ -21,8 +21,5 @@
 
   <remove-node path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthController']" />
   <remove-node path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthActivity']" />
-  <!--<attr path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthWebViewClient']" name="visibility">public</attr>
-  <attr path="/api/package[@name='com.twitter.sdk.android.core.identity']/interface[@name='OAuthWebViewClient.Listener']" name="visibility">public</attr>
-  <attr path="/api/package[@name='com.twitter.sdk.android.core.identity']/class[@name='OAuthWebViewClient']/field[@name='listener']" name="visibility">public</attr>-->
   
 </metadata>
