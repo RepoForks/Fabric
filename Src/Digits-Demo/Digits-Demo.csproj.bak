@@ -16,7 +16,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -41,33 +41,12 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Crashlytics">
-      <HintPath>..\Crashlytics\Crashlytics\bin\Debug\Crashlytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Digits">
-      <HintPath>..\Digits\Digits\bin\Debug\Digits.dll</HintPath>
-    </Reference>
-    <Reference Include="Fabric.sdk">
-      <HintPath>..\Fabric.sdk\Fabric.sdk\bin\Debug\Fabric.sdk.dll</HintPath>
-    </Reference>
-    <Reference Include="Gson">
-      <HintPath>..\Gson\bin\Debug\Gson.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="OkHttp3">
-      <HintPath>..\Retrofit2\bin\Debug\OkHttp3.dll</HintPath>
-    </Reference>
-    <Reference Include="Retrofit2">
-      <HintPath>..\Twitter.core.sdk\Twitter.core.sdk\bin\Debug\Retrofit2.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="Twitter.core.sdk">
-      <HintPath>..\Twitter.core.sdk\Twitter.core.sdk\bin\Debug\Twitter.core.sdk.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\Digits\packages\Xamarin.Android.Support.v4.23.2.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
       <Private>True</Private>
@@ -101,6 +80,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Crashlytics\Crashlytics\Crashlytics.csproj">
+      <Project>{3dc99ba5-6421-42dc-9e30-acdb5f371acd}</Project>
+      <Name>Crashlytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Digits\Digits\Digits.csproj">
+      <Project>{2daeb65d-0665-468a-a552-9b6f5423390d}</Project>
+      <Name>Digits</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fabric.sdk\Fabric.sdk\Fabric.sdk.csproj">
+      <Project>{e5d46844-faf4-40bd-9894-16bdc767106e}</Project>
+      <Name>Fabric.sdk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Twitter.core.sdk\Twitter.core.sdk\Twitter.core.sdk.csproj">
+      <Project>{a53bef56-5c0e-407b-a25e-140856c34199}</Project>
+      <Name>Twitter.core.sdk</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

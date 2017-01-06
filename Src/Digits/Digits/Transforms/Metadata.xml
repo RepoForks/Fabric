@@ -18,4 +18,14 @@
   <remove-node path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsCallback']/method[@name='success' and count(parameter)=1 and parameter[1][@type='com.twitter.sdk.android.core.Result&lt;T&gt;']]" />
   
   <attr path="/api/package[@name='com.digits.sdk.android']/class[@name='ContactsUploadService' and @extends='android.app.IntentService']" name="extends">mono.android.app.IntentService</attr>
+
+  <attr path="/api/package[@name='com.digits.sdk.android']/interface[@name='AuthCallback']/method[@name='success']/parameter[@name='p1']"
+       name="name">phoneNumber</attr>
+
+  <attr path="/api/package[@name='com.digits.sdk.android']/interface[@name='AuthCallback']/method[@name='success']/parameter[@name='p0']"
+        name="name">session</attr>
+
+  <attr path="/api/package[@name='com.digits.sdk.android']/interface[@name='AuthCallback']/method[@name='failure']/parameter[@name='p0']"
+       name="name">failureException</attr>
+  
 </metadata>

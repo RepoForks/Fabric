@@ -2,11 +2,12 @@
 using Android.Widget;
 using Android.OS;
 using Com.Digits.Sdk.Android;
-using Com.Twitter.Sdk.Android.Core;
-using IO.Fabric.Sdk.Android;
-using Com.Twitter.Sdk.Android.Core.Identity;
-using System;
 using Android.Content;
+using Android.Runtime;
+using System;
+using IO.Fabric.Sdk.Android;
+using Com.Twitter.Sdk.Android.Core;
+using Com.Digits.Sdk.Android.Models;
 
 namespace Digits_Demo
 {
@@ -44,15 +45,15 @@ namespace Digits_Demo
         private void Button_Click(object sender, System.EventArgs e)
         {
             Digits.UploadContacts();
-            Digits.FindFriends(new FindFriendsCallback());
+            Digits.FindFriends(new FindFriendsCallback(BaseContext));
         }
 
-        public void Failure(DigitsException p0)
+        public void Failure(DigitsException failureException)
         {
             Toast.MakeText(this.BaseContext, "Failure", ToastLength.Short);
         }
 
-        public void Success(DigitsSession p0, string p1)
+        public void Success(DigitsSession session, string phoneNumber)
         {
             Toast.MakeText(this.BaseContext, "Success", ToastLength.Short);
         }
@@ -60,14 +61,26 @@ namespace Digits_Demo
 
     public class FindFriendsCallback : ContactsCallback
     {
-        public override void Failure(TwitterException p0)
+        private Context context;
+
+        public FindFriendsCallback(Context contxt)
         {
-            throw new NotImplementedException();
+            context = contxt;
         }
 
-        public override void Success(Com.Twitter.Sdk.Android.Core.Result p0)
+        public override void Failure(TwitterException failureException)
         {
+            //throw new NotImplementedException();
+        }
 
+        public override void Success(Com.Twitter.Sdk.Android.Core.Result successMessage)
+        {
+            var userList = (successMessage.Data as Contacts).Users;
+            foreach (var item in userList)
+            {
+                Toast.MakeText(context, item.ToString(), ToastLength.Short).Show();
+            }
+            System.Diagnostics.Debug.WriteLine(successMessage.Response);
         }
     }
 
@@ -79,6 +92,7 @@ namespace Digits_Demo
             if (ContactsUploadService.UploadComplete.Equals(intent.Action))
             {
                 var data = intent.GetParcelableExtra(ContactsUploadService.UploadCompleteExtra);
+                Toast.MakeText(context, data.ToString(), ToastLength.Long).Show();
             }
         }
     }

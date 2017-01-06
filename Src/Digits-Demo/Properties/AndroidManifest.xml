@@ -6,13 +6,11 @@
 	<uses-permission android:name="android.permission.READ_CONTACTS" />
 	<application android:label="Digits_Demo">
 		<meta-data android:name="io.fabric.ApiKey" android:value="40567d35ad9ad5a13565a613ba752012eb3922f3" />
-    <receiver
-  android:name="mono.samples.Receiver"
-  android:exported="false">
-      <intent-filter>
-        <action android:name="com.digits.sdk.android.UPLOAD_COMPLETE"/>
-        <action android:name="com.digits.sdk.android.UPLOAD_FAILED"/>
-      </intent-filter>
-    </receiver>
+		<receiver android:name="mono.samples.Receiver" android:exported="false">
+			<intent-filter>
+				<action android:name="com.digits.sdk.android.UPLOAD_COMPLETE" />
+				<action android:name="com.digits.sdk.android.UPLOAD_FAILED" />
+			</intent-filter>
+		</receiver>
 	</application>
 </manifest>
