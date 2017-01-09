@@ -72,15 +72,6 @@
       <Project>{e5d46844-faf4-40bd-9894-16bdc767106e}</Project>
       <Name>Fabric.sdk</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\OkHttp3\OkHttp3.csproj">
-      <Project>{2a7f3d6d-0b23-4736-848e-dbb9122755db}</Project>
-      <Name>OkHttp3</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Retrofit2\Retrofit2.csproj">
-      <Project>{3739182c-c2d8-4538-b122-9dd82b11f7b6}</Project>
-      <Name>Retrofit2</Name>
-      <Private>True</Private>
-    </ProjectReference>
     <ProjectReference Include="..\..\Twitter.core.sdk\Twitter.core.sdk\Twitter.core.sdk.csproj">
       <Project>{a53bef56-5c0e-407b-a25e-140856c34199}</Project>
       <Name>Twitter.core.sdk</Name>
