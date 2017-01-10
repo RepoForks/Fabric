@@ -42,14 +42,6 @@ namespace Digits_Demo
             
         }
 
-        protected override void OnResume()
-        {
-            base.OnResume();
-            if (Digits.ActiveSession == null)
-                return;
-            Toast.MakeText(this, "Welcome User Id" + Digits.ActiveSession.Id.ToString(), ToastLength.Long).Show();
-        }
-
         private void Button_Click(object sender, System.EventArgs e)
         {
             Digits.UploadContacts();
@@ -84,12 +76,11 @@ namespace Digits_Demo
         public override void Success(Com.Twitter.Sdk.Android.Core.Result successMessage)
         {
             var userList = (successMessage.Data as Contacts).Users;
-            if (userList == null)
-                return;
             foreach (var item in userList)
             {
-                Toast.MakeText(context, (item as DigitsUser).Id.ToString(), ToastLength.Short).Show();
+                Toast.MakeText(context, item.ToString(), ToastLength.Short).Show();
             }
+            System.Diagnostics.Debug.WriteLine(successMessage.Response);
         }
     }
 

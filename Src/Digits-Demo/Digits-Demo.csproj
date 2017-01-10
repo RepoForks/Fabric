@@ -41,14 +41,26 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Crashlytics">
+      <HintPath>..\Crashlytics\Crashlytics\bin\Debug\Crashlytics.dll</HintPath>
+    </Reference>
     <Reference Include="Digits">
       <HintPath>..\Digits\Digits\bin\Debug\Digits.dll</HintPath>
     </Reference>
     <Reference Include="Fabric.sdk">
       <HintPath>..\Fabric.sdk\Fabric.sdk\bin\Debug\Fabric.sdk.dll</HintPath>
     </Reference>
+    <Reference Include="Gson">
+      <HintPath>..\Gson\bin\Debug\Gson.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="OkHttp3">
+      <HintPath>..\Retrofit2\bin\Debug\OkHttp3.dll</HintPath>
+    </Reference>
+    <Reference Include="Retrofit2">
+      <HintPath>..\Twitter.core.sdk\Twitter.core.sdk\bin\Debug\Retrofit2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -88,23 +100,7 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\AndroidManifest.xml">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Gson\Gson.csproj">
-      <Project>{1cc5eae4-504c-4b68-b715-6fe79b4972f7}</Project>
-      <Name>Gson</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OkHttp3\OkHttp3.csproj">
-      <Project>{2a7f3d6d-0b23-4736-848e-dbb9122755db}</Project>
-      <Name>OkHttp3</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Retrofit2\Retrofit2.csproj">
-      <Project>{3739182c-c2d8-4538-b122-9dd82b11f7b6}</Project>
-      <Name>Retrofit2</Name>
-    </ProjectReference>
+    <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
