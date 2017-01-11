@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id> Digits </id>
+    <version> 2.0.0.0 </version>
+    <owners>Dinesh kumar</owners>
+    <authors>WalkingTree</authors>
+    <licenseUrl>https://github.com/walkingtree/Fabric/tree/master/Src/Digits</licenseUrl>
+    <projectUrl>https://github.com/walkingtree/Fabric/tree/master/Src/Digits</projectUrl>
+    <iconUrl>https://github.com/walkingtree/Fabric/tree/master/Src/Digits</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.Android</description>
+    <releaseNotes>Digits component from the Fabric Suite</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin Android</tags>
+    <references>
+      <reference file="Digits.dll"/>
+      <reference file="Fabric.sdk.dll" />
+      <reference file="Crashlytics.dll" />
+      <reference file="Twitter.core.sdk.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="..\Digits\Digits\bin\Debug\Digits.dll" target="lib\MonoAndroid" />
+    <file src="..\Digits\Digits\bin\Debug\Crashlytics.dll" target="lib\MonoAndroid" />
+    <file src="..\Digits\Digits\bin\Debug\Fabric.sdk.dll" target="lib\MonoAndroid" />
+    <file src="..\Digits\Digits\bin\Debug\Twitter.core.sdk.dll" target="lib\MonoAndroid" />
+  </files>
+</package>
