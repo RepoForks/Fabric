@@ -41,12 +41,28 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Crashlytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Digits\packages\Digits.2.0.0\lib\MonoAndroid\Crashlytics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Digits, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Digits\packages\Digits.2.0.0\lib\MonoAndroid\Digits.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Fabric.sdk, Version=1.3.13.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Digits\packages\Digits.2.0.0\lib\MonoAndroid\Fabric.sdk.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
+    <Reference Include="Twitter.core.sdk, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Digits\packages\Digits.2.0.0\lib\MonoAndroid\Twitter.core.sdk.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\Digits\packages\Xamarin.Android.Support.v4.23.2.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
       <Private>True</Private>
@@ -80,24 +96,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Crashlytics\Crashlytics\Crashlytics.csproj">
-      <Project>{3dc99ba5-6421-42dc-9e30-acdb5f371acd}</Project>
-      <Name>Crashlytics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Digits\Digits\Digits.csproj">
-      <Project>{2daeb65d-0665-468a-a552-9b6f5423390d}</Project>
-      <Name>Digits</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Fabric.sdk\Fabric.sdk\Fabric.sdk.csproj">
-      <Project>{e5d46844-faf4-40bd-9894-16bdc767106e}</Project>
-      <Name>Fabric.sdk</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Twitter.core.sdk\Twitter.core.sdk\Twitter.core.sdk.csproj">
-      <Project>{a53bef56-5c0e-407b-a25e-140856c34199}</Project>
-      <Name>Twitter.core.sdk</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

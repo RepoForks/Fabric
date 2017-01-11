@@ -21,9 +21,9 @@
     </references>
   </metadata>
   <files>
-    <file src="..\Digits\Digits\bin\Debug\Digits.dll" target="lib\MonoAndroid" />
-    <file src="..\Digits\Digits\bin\Debug\Crashlytics.dll" target="lib\MonoAndroid" />
-    <file src="..\Digits\Digits\bin\Debug\Fabric.sdk.dll" target="lib\MonoAndroid" />
-    <file src="..\Digits\Digits\bin\Debug\Twitter.core.sdk.dll" target="lib\MonoAndroid" />
+    <file src="..\Digits\Digits\bin\Release\Digits.dll" target="lib\MonoAndroid" />
+    <file src="..\Digits\Digits\bin\Release\Crashlytics.dll" target="lib\MonoAndroid" />
+    <file src="..\Digits\Digits\bin\Release\Fabric.sdk.dll" target="lib\MonoAndroid" />
+    <file src="..\Digits\Digits\bin\Release\Twitter.core.sdk.dll" target="lib\MonoAndroid" />
   </files>
 </package>

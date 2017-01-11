@@ -9,17 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabric.sdk", "..\Fabric.sdk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter.core.sdk", "..\Twitter.core.sdk\Twitter.core.sdk\Twitter.core.sdk.csproj", "{A53BEF56-5C0E-407B-A25E-140856C34199}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{5E0A06DA-1D15-4893-89E0-3868E4DE036F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gson", "..\Gson\Gson.csproj", "{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkHttp3", "..\OkHttp3\OkHttp3.csproj", "{2A7F3D6D-0B23-4736-848E-DBB9122755DB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrofit2", "..\Retrofit2\Retrofit2.csproj", "{3739182C-C2D8-4538-B122-9DD82B11F7B6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crashlytics", "..\Crashlytics\Crashlytics\Crashlytics.csproj", "{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beta", "..\Beta\Beta.csproj", "{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{C9D7B78C-167B-408C-9B12-5B3B0A164F04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackage", "NugetPackage", "{59DF665E-A4C4-4C62-A50E-CBD5B4262EB7}"
+	ProjectSection(SolutionItems) = preProject
+		..\NugetPackage\Digits.nuspec = ..\NugetPackage\Digits.nuspec
+		..\NugetPackage\nuget.exe = ..\NugetPackage\nuget.exe
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digits-Demo", "..\Digits-Demo\Digits-Demo.csproj", "{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}"
 EndProject
@@ -41,26 +39,10 @@ Global
 		{A53BEF56-5C0E-407B-A25E-140856C34199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A53BEF56-5C0E-407B-A25E-140856C34199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A53BEF56-5C0E-407B-A25E-140856C34199}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A7F3D6D-0B23-4736-848E-DBB9122755DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3739182C-C2D8-4538-B122-9DD82B11F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34B762D8-B3D5-4A2F-A9B6-E24FB66D518F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -72,8 +54,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1CC5EAE4-504C-4B68-B715-6FE79B4972F7} = {5E0A06DA-1D15-4893-89E0-3868E4DE036F}
-		{2A7F3D6D-0B23-4736-848E-DBB9122755DB} = {5E0A06DA-1D15-4893-89E0-3868E4DE036F}
-		{3739182C-C2D8-4538-B122-9DD82B11F7B6} = {5E0A06DA-1D15-4893-89E0-3868E4DE036F}
+		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5} = {C9D7B78C-167B-408C-9B12-5B3B0A164F04}
 	EndGlobalSection
 EndGlobal
