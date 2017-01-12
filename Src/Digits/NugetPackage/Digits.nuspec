@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id> Digits </id>
-    <version> 2.0.0.0 </version>
+    <version>2.0.0.0 </version>
     <owners>Dinesh kumar</owners>
     <authors>WalkingTree</authors>
     <licenseUrl>https://github.com/walkingtree/Fabric/tree/master/Src/Digits</licenseUrl>
@@ -21,9 +21,9 @@
     </references>
   </metadata>
   <files>
-    <file src="..\Digits\Digits\bin\Release\Digits.dll" target="lib\MonoAndroid" />
-    <file src="..\Digits\Digits\bin\Release\Crashlytics.dll" target="lib\MonoAndroid" />
-    <file src="..\Digits\Digits\bin\Release\Fabric.sdk.dll" target="lib\MonoAndroid" />
-    <file src="..\Digits\Digits\bin\Release\Twitter.core.sdk.dll" target="lib\MonoAndroid" />
+    <file src="Digits\bin\Release\Digits.dll" target="lib\MonoAndroid" />
+    <file src="Digits\bin\Release\Crashlytics.dll" target="lib\MonoAndroid" />
+    <file src="Digits\bin\Release\Fabric.sdk.dll" target="lib\MonoAndroid" />
+    <file src="Digits\bin\Release\Twitter.core.sdk.dll" target="lib\MonoAndroid" />
   </files>
 </package>

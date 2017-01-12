@@ -78,6 +78,10 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)*.dll" "..\..\..\..\..\Sample\FabricSDK-Xamarin-Android" /C /Y 
+$(SolutionDir)NugetPackage\nuget pack "$(ProjectPath)" -outputDirectory "$(SolutionDir)NugetPackage"  -IncludeReferencedProjects -properties version=2.0.0</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

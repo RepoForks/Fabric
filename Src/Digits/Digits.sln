@@ -11,15 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter.core.sdk", "..\Twit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crashlytics", "..\Crashlytics\Crashlytics\Crashlytics.csproj", "{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{C9D7B78C-167B-408C-9B12-5B3B0A164F04}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackage", "NugetPackage", "{59DF665E-A4C4-4C62-A50E-CBD5B4262EB7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackage", "NugetPackage", "{640D803E-94C9-4F4E-9FBB-6E3346327D83}"
 	ProjectSection(SolutionItems) = preProject
-		..\NugetPackage\Digits.nuspec = ..\NugetPackage\Digits.nuspec
-		..\NugetPackage\nuget.exe = ..\NugetPackage\nuget.exe
+		NugetPackage\Digits.nuspec = NugetPackage\Digits.nuspec
+		NugetPackage\nuget.exe = NugetPackage\nuget.exe
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digits-Demo", "..\Digits-Demo\Digits-Demo.csproj", "{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,17 +39,8 @@ Global
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC99BA5-6421-42DC-9E30-ACDB5F371ACD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A8D2F57A-A0EA-4582-9365-73D5AC49F3E5} = {C9D7B78C-167B-408C-9B12-5B3B0A164F04}
 	EndGlobalSection
 EndGlobal
