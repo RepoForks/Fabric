@@ -8,9 +8,9 @@
     <string name="LoginFail">User registration Failed!</string>
     <string name="userKey">Phone Number</string>
     <string name="authButton">Register with Phone Number</string>
-    <string name="twitterKey">Give twitter key here</string>
-    <string name="twitterSecret">Give Twitter secret here</string>
-    <string name="fabricKey">Give Fabric key here</string>
+    <string name="twitterKey">AJFiFHfvcGdPVD1FQsEvYPggH</string>
+    <string name="twitterSecret">bYxCuSQnfou2Aa7xGagFnXHeGHe8yCXp6MYTZWHGrY0MwG70T9</string>
+    <string name="fabricKey">40567d35ad9ad5a13565a613ba752012eb3922f3</string>
   
   <!--End of Login Page-->
   
@@ -19,5 +19,6 @@
    <string name="logout">Logout</string>
    <string name="HomePage">HomeActivity</string>
    <string name="BaseActivity">BaseActivity</string>
+   <string name="uploadContactsError">Failed to Find Contacts</string>
   <!-- End of Home Page -->
 </resources>

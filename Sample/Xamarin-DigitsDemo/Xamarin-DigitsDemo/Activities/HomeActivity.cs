@@ -7,13 +7,16 @@ using Com.Digits.Sdk.Android;
 
 namespace Xamarin_DigitsDemo.Activities
 {
-    [Activity(Label = "@string/HomePage", Theme ="@style/MyTheme", NoHistory =true)]
+    [Activity(Label = "@string/ApplicationName", Theme = "@style/MyTheme", NoHistory = true)]
     public class HomeActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.home);
+
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetActionBar(toolbar);
 
             var userPhone = FindViewById<TextView>(Resource.Id.phoneId);
             var logoutBtn = FindViewById<Button>(Resource.Id.logoutButton);
@@ -27,6 +30,7 @@ namespace Xamarin_DigitsDemo.Activities
         private void UploadContacts(object sender, System.EventArgs e)
         {
             Digits.UploadContacts();
+            Digits.FindFriends(new FindFriendsCallback(BaseContext));
         }
 
         private void UserLogout(object sender, System.EventArgs e)

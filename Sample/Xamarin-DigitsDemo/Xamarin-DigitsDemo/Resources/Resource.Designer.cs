@@ -2154,8 +2154,8 @@ namespace Xamarin_DigitsDemo
 			// aapt resource value: 0x7f020061
 			public const int navigation_empty_icon = 2130837601;
 			
-			// aapt resource value: 0x7f020070
-			public const int notification_template_icon_bg = 2130837616;
+			// aapt resource value: 0x7f020072
+			public const int notification_template_icon_bg = 2130837618;
 			
 			// aapt resource value: 0x7f020062
 			public const int progress_dark = 2130837602;
@@ -2164,40 +2164,46 @@ namespace Xamarin_DigitsDemo
 			public const int progress_light = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int splash_logo = 2130837604;
+			public const int roundbutton = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int tw__ic_logo_default = 2130837605;
+			public const int splash_logo = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int tw__login_btn = 2130837606;
+			public const int splashScreen = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int tw__login_btn_default = 2130837607;
+			public const int tw__ic_logo_default = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int tw__login_btn_default_light = 2130837608;
+			public const int tw__login_btn = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int tw__login_btn_disabled = 2130837609;
+			public const int tw__login_btn_default = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int tw__login_btn_light = 2130837610;
+			public const int tw__login_btn_default_light = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int tw__login_btn_pressed = 2130837611;
+			public const int tw__login_btn_disabled = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int tw__login_btn_pressed_light = 2130837612;
+			public const int tw__login_btn_light = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int tw__login_btn_text_color_light = 2130837613;
+			public const int tw__login_btn_pressed = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int tw__share_email_header = 2130837614;
+			public const int tw__login_btn_pressed_light = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int tw__transparent = 2130837615;
+			public const int tw__login_btn_text_color_light = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int tw__share_email_header = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int tw__transparent = 2130837617;
 			
 			static Drawable()
 			{
@@ -2485,8 +2491,8 @@ namespace Xamarin_DigitsDemo
 			// aapt resource value: 0x7f070044
 			public const int image = 2131165252;
 			
-			// aapt resource value: 0x7f0700a8
-			public const int imageView = 2131165352;
+			// aapt resource value: 0x7f0700a9
+			public const int imageView = 2131165353;
 			
 			// aapt resource value: 0x7f0700a4
 			public const int info = 2131165348;
@@ -2686,6 +2692,9 @@ namespace Xamarin_DigitsDemo
 			// aapt resource value: 0x7f07004d
 			public const int title_template = 2131165261;
 			
+			// aapt resource value: 0x7f0700a6
+			public const int toolbar = 2131165350;
+			
 			// aapt resource value: 0x7f070025
 			public const int top = 2131165221;
 			
@@ -2695,20 +2704,20 @@ namespace Xamarin_DigitsDemo
 			// aapt resource value: 0x7f07006f
 			public const int touch_outside = 2131165295;
 			
+			// aapt resource value: 0x7f0700ac
+			public const int tw__allow_btn = 2131165356;
+			
 			// aapt resource value: 0x7f0700ab
-			public const int tw__allow_btn = 2131165355;
+			public const int tw__not_now_btn = 2131165355;
 			
 			// aapt resource value: 0x7f0700aa
-			public const int tw__not_now_btn = 2131165354;
+			public const int tw__share_email_desc = 2131165354;
 			
-			// aapt resource value: 0x7f0700a9
-			public const int tw__share_email_desc = 2131165353;
+			// aapt resource value: 0x7f0700a8
+			public const int tw__spinner = 2131165352;
 			
 			// aapt resource value: 0x7f0700a7
-			public const int tw__spinner = 2131165351;
-			
-			// aapt resource value: 0x7f0700a6
-			public const int tw__web_view = 2131165350;
+			public const int tw__web_view = 2131165351;
 			
 			// aapt resource value: 0x7f070009
 			public const int up = 2131165193;
@@ -2959,10 +2968,13 @@ namespace Xamarin_DigitsDemo
 			public const int support_simple_spinner_dropdown_item = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int tw__activity_oauth = 2130903101;
+			public const int Toolbar = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int tw__activity_share_email = 2130903102;
+			public const int tw__activity_oauth = 2130903102;
+			
+			// aapt resource value: 0x7f03003f
+			public const int tw__activity_share_email = 2130903103;
 			
 			static Layout()
 			{
@@ -3304,6 +3316,9 @@ namespace Xamarin_DigitsDemo
 			
 			// aapt resource value: 0x7f080065
 			public const int upload = 2131230821;
+			
+			// aapt resource value: 0x7f080069
+			public const int uploadContactsError = 2131230825;
 			
 			// aapt resource value: 0x7f080060
 			public const int userKey = 2131230816;

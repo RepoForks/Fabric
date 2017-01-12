@@ -2,6 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <include
+        layout="@layout/Toolbar" />
     <TextView
         android:id="@+id/phoneId"
         android:layout_height="wrap_content"
@@ -15,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/upload"
-        android:background="@color/Purple"
+        android:background="@drawable/roundbutton"
         android:textColor="@color/White"
         android:id="@+id/contactButton" />
     <Button
@@ -25,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/logout"
-        android:background="@color/Purple"
+        android:background="@drawable/roundbutton"
         android:textColor="@color/White"
         android:id="@+id/logoutButton" />
 </RelativeLayout>

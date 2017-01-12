@@ -18,7 +18,8 @@ namespace Xamarin_DigitsDemo.Activities
             base.OnCreate(bundle);
 
             SetContentView(Resource.Layout.login);
-
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetActionBar(toolbar);
             parentLayout = FindViewById<RelativeLayout>(Resource.Id.parentPanel);
             
             var digitsAuthBtn = FindViewById<DigitsAuthButton>(Resource.Id.authButton);

@@ -18,7 +18,7 @@ namespace Xamarin_DigitsDemo.Activities
                                                    GetString(Resource.String.twitterSecret)
                                                  );
 
-            Fabric.With(this, new TwitterCore(authConfig), 
+            Fabric.With(this, new TwitterCore(authConfig),
                               new Digits.Builder().WithTheme(Resource.Style.LoginTheme).Build());
         }
 
