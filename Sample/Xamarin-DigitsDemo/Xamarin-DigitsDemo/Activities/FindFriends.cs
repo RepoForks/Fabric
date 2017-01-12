@@ -15,7 +15,7 @@ namespace Xamarin_DigitsDemo.Activities
             context = contxt;
         }
 
-        public override void Failure(TwitterException p0)
+        public override void Failure(TwitterException failureException)
         {
             Toast.MakeText(context, context.GetString(Resource.String.uploadContactsError), ToastLength.Short).Show();
         }

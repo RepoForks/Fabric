@@ -3,15 +3,17 @@
     <string name="Hello">Hello&#160;</string>
     <string name="ApplicationName">Xamarin-DigitsDemo</string>
   
+  <!--Twitter Fabric Suite API-->
+  <string name="twitterKey">AJFiFHfvcGdPVD1FQsEvYPggH</string>
+  <string name="twitterSecret">bYxCuSQnfou2Aa7xGagFnXHeGHe8yCXp6MYTZWHGrY0MwG70T9</string>
+  <string name="fabricKey">40567d35ad9ad5a13565a613ba752012eb3922f3</string>
+  <!--End of Twitter Fabric Suite API reference-->
+  
   <!-- Login Page -->
     <string name="LoginSuccessful">User registration successful!</string>
     <string name="LoginFail">User registration Failed!</string>
     <string name="userKey">Phone Number</string>
     <string name="authButton">Register with Phone Number</string>
-    <string name="twitterKey">AJFiFHfvcGdPVD1FQsEvYPggH</string>
-    <string name="twitterSecret">bYxCuSQnfou2Aa7xGagFnXHeGHe8yCXp6MYTZWHGrY0MwG70T9</string>
-    <string name="fabricKey">40567d35ad9ad5a13565a613ba752012eb3922f3</string>
-  
   <!--End of Login Page-->
   
   <!-- Home Page -->

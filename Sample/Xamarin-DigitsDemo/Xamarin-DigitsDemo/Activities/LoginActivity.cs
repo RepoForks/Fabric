@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using Com.Digits.Sdk.Android;
 using Android.Support.Design.Widget;
+using System;
 
 namespace Xamarin_DigitsDemo.Activities
 {
@@ -28,17 +29,19 @@ namespace Xamarin_DigitsDemo.Activities
         }
 
         #region IAuthCallBack Implementation
-        public void Failure(DigitsException exception)
+
+        public void Failure(DigitsException failureException)
         {
             Snackbar.Make(parentLayout, Resource.String.LoginFail, Snackbar.LengthShort).Show();
         }
-        
-        public void Success(DigitsSession p0, string p1)
+
+        public void Success(DigitsSession session, string phoneNumber)
         {
-            userPhoneNumber = p1;
-            Snackbar.Make(parentLayout, Resource.String.LoginSuccessful + p1, Snackbar.LengthShort).Show();
+            userPhoneNumber = phoneNumber;
+            Snackbar.Make(parentLayout, Resource.String.LoginSuccessful + phoneNumber, Snackbar.LengthShort).Show();
             NavigatingToHome(typeof(HomeActivity), userPhoneNumber);
         }
+
         #endregion
 
         #region CodeBehindAccess

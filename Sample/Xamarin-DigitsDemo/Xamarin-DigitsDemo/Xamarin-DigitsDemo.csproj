@@ -57,20 +57,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Fabric.sdk.dll</HintPath>
     </Reference>
-    <Reference Include="Gson, Version=2.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib-Digits\Gson.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="OkHttp3, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib-Digits\OkHttp3.dll</HintPath>
-    </Reference>
-    <Reference Include="Retrofit2, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib-Digits\Retrofit2.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
